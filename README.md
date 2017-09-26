@@ -20,6 +20,8 @@ Or Settings/Preferences ➔ Packages ➔ Search for `shopify-helper`
 
 ### Snippets
 
+![shopify-helper-image-picker](https://user-images.githubusercontent.com/951725/30889090-6aec3200-a367-11e7-8391-3e3143e5263e.png)
+
 Start typing a schema type (below) to populate the json structure. Use `TAB` to navigate to the next edit-able property
 
 * `text`
