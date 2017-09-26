@@ -1,0 +1,34 @@
+{
+    "context-menu": {
+        "atom-text-editor": [
+            {
+                "label": "Shopify helper: clean selected text",
+                "command": "shopify-helper:clean-text"
+            },
+            {
+                "label": "Shopify helper: paste as clean text",
+                "command": "shopify-helper:paste-clean-text"
+            }
+        ]
+    },
+    "menu": [
+        {
+            "label": "Packages",
+            "submenu": [
+                {
+                    "label": "Shopify helper",
+                    "submenu": [
+                        {
+                            "label": "Clean selected text",
+                            "command": "shopify-helper:clean-text"
+                        },
+                        {
+                            "label": "Paste as clean text",
+                            "command": "shopify-helper:paste-clean-text"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

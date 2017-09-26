@@ -1,0 +1,349 @@
+'.source.json, .source.html, .source.liquid':
+
+  # ----------------------------------
+  # text
+  # ----------------------------------
+  'Shopify text':
+    'prefix': 'text'
+    'body': """
+{
+  "type": "text",
+  "id": "${1:id}",
+  "label": "${2:label}",
+  "default": "${3:default}"
+  "info": "${4:info}",
+  "placeholder": "${5:placeholder}"
+}
+    """
+
+  # ----------------------------------
+  # Textarea
+  # ----------------------------------
+  'Shopify textarea':
+    'prefix': 'textarea'
+    'body': """
+{
+  "type": "textarea",
+  "id": "${1:id}",
+  "label": "${2:label}",
+  "default": "${3:default}"
+  "info": "${4:info}",
+  "placeholder": "${5:placeholder}"
+}
+    """
+
+  # ----------------------------------
+  # image picker
+  # ----------------------------------
+  'Shopify image picker':
+    'prefix': 'image picker'
+    'body': """
+{
+  "type": "image_picker",
+  "id": "${1:id}",
+  "label": "${2:label}"
+}
+    """
+
+  # ----------------------------------
+  # radio
+  # ----------------------------------
+  'Shopify radio':
+    'prefix': 'radio'
+    'body': """
+{
+   "type": "radio",
+   "id": "${1:id}",
+   "label": "${2:label}",
+   "default": "${3:default}",
+   "options": [
+      {
+        "value": "${4:option_value}",
+        "label": "${5:option_label}"
+      },
+      {
+        "value": "${6:option_value}",
+        "label": "${7:option_label}"
+      },
+      {
+        "value": "${8:option_value}",
+        "label": "${9:option_label}"
+      }
+   ],
+   "info": "${10:info}"
+}
+    """
+
+  # ----------------------------------
+  # select
+  # ----------------------------------
+  'Shopify select':
+    'prefix': 'select'
+    'body': """
+{
+   "type": "select",
+   "id": "${1:id}",
+   "label": "${2:label}",
+   "default": "${3:default}",
+   "options": [
+      {
+        "group": "${4:option_group}",
+        "value": "${5:option_value}",
+        "label": "${6:option_label}"
+      },
+      {
+        "group": "${7:option_group}",
+        "value": "${8:option_value}",
+        "label": "${9:option_label}"
+      }
+   ],
+   "info": "${10:info}"
+}
+    """
+
+  # ----------------------------------
+  # checkbox
+  # ----------------------------------
+  'Shopify checkbox':
+    'prefix': 'checkbox'
+    'body': """
+{
+  "type": "checkbox",
+  "id": "${1:id}",
+  "label": "${2:label}",
+  "default": "${3:default}"
+  "info": "${4:info}"
+}
+    """
+
+  # ----------------------------------
+  # range
+  # ----------------------------------
+  'Shopify range':
+    'prefix': 'range'
+    'body': """
+{
+  "type": "range",
+  "id": "${1:id}",
+  "label": "${2:label}",
+  "default": "${3:default}"
+  "info": "${4:info}",
+  "min": ${5:0},
+  "max": ${6:10},
+  "step": ${7:1},
+  "unit": "${8:units}"
+}
+    """
+
+  # ----------------------------------
+  # color
+  # ----------------------------------
+  'Shopify color':
+    'prefix': 'color'
+    'body': """
+{
+  "type": "color",
+  "id": "${1:id}",
+  "label": "${2:label}",
+  "default": "${3:default}"
+  "info": "${4:info}"
+}
+    """
+
+  # ----------------------------------
+  # font
+  # ----------------------------------
+  'Shopify font':
+    'prefix': 'font'
+    'body': """
+{
+  "type": "font",
+  "id": "${1:id}",
+  "label": "${2:label}"
+  "info": "${3:info}"
+}
+    """
+
+  # ----------------------------------
+  # collection
+  # ----------------------------------
+  'Shopify collection':
+    'prefix': 'collection'
+    'body': """
+{
+  "type": "collection",
+  "id": "${1:id}",
+  "label": "${2:label}"
+  "info": "${3:info}"
+}
+    """
+
+  # ----------------------------------
+  # product
+  # ----------------------------------
+  'Shopify product':
+    'prefix': 'product'
+    'body': """
+{
+  "type": "product",
+  "id": "${1:id}",
+  "label": "${2:label}"
+  "info": "${3:info}"
+}
+    """
+
+  # ----------------------------------
+  # blog
+  # ----------------------------------
+  'Shopify blog':
+    'prefix': 'blog'
+    'body': """
+{
+  "type": "blog",
+  "id": "${1:id}",
+  "label": "${2:label}"
+  "info": "${3:info}"
+}
+    """
+
+  # ----------------------------------
+  # page
+  # ----------------------------------
+  'Shopify page':
+    'prefix': 'page'
+    'body': """
+{
+  "type": "page",
+  "id": "${1:id}",
+  "label": "${2:label}"
+  "info": "${3:info}"
+}
+    """
+
+  # ----------------------------------
+  # article
+  # ----------------------------------
+  'Shopify article':
+    'prefix': 'article'
+    'body': """
+{
+  "type": "article",
+  "id": "${1:id}",
+  "label": "${2:label}"
+  "info": "${3:info}"
+}
+    """
+
+  # ----------------------------------
+  # link list
+  # ----------------------------------
+  'Shopify link list':
+    'prefix': 'link list'
+    'body': """
+{
+  "type": "link_list",
+  "id": "${1:id}",
+  "label": "${2:label}"
+  "info": "${3:info}"
+}
+    """
+
+  # ----------------------------------
+  # snippet
+  # ----------------------------------
+  'Shopify snippet':
+    'prefix': 'snippet'
+    'body': """
+{
+  "type": "snippet",
+  "id": "${1:id}",
+  "label": "${2:label}"
+  "info": "${3:info}"
+}
+    """
+
+  # ----------------------------------
+  # url
+  # ----------------------------------
+  'Shopify url':
+    'prefix': 'url'
+    'body': """
+{
+  "type": "url",
+  "id": "${1:id}",
+  "label": "${2:label}"
+  "info": "${3:info}"
+}
+    """
+
+  # ----------------------------------
+  # video
+  # ----------------------------------
+  'Shopify video':
+    'prefix': 'video'
+    'body': """
+{
+  "type": "video_url",
+  "id": "${1:id}",
+  "label": "${2:label}"
+  "info": "${3:info}",
+  "accept": ["youtube", "vimeo"],
+  "default": "${4:https://www.youtube.com/watch?v=_9VUPq3SxOc}"
+}
+    """
+
+  # ----------------------------------
+  # richtext
+  # ----------------------------------
+  'Shopify richtext':
+    'prefix': 'richtext'
+    'body': """
+{
+  "type": "richtext",
+  "id": "${1:id}",
+  "label": "${2:label}"
+  "info": "${3:info}",
+  "default": "${4:default}"
+}
+    """
+
+  # ----------------------------------
+  # html
+  # ----------------------------------
+  'Shopify html':
+    'prefix': 'html'
+    'body': """
+{
+  "type": "html",
+  "id": "${1:id}",
+  "label": "${2:label}"
+  "info": "${3:info}",
+  "default": "${4:default}"
+}
+    """
+
+  # ----------------------------------
+  # header
+  # ----------------------------------
+  'Shopify header':
+    'prefix': 'header'
+    'body': """
+{
+  "type": "header",
+  "content": "${1:content}",
+  "info": "${2:info}"
+}
+    """
+
+  # ----------------------------------
+  # paragraph
+  # ----------------------------------
+  'Shopify paragraph':
+    'prefix': 'paragraph'
+    'body': """
+{
+  "type": "paragraph",
+  "content": "${1:content}",
+  "info": "${2:info}"
+}
+    """

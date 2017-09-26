@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-'": "shopify-helper:clean-text",
+    "ctrl-alt-v": "shopify-helper:paste-clean-text"
+  }
+}
