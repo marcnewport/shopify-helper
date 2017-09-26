@@ -2,7 +2,7 @@
   "name": "shopify-helper",
   "main": "./lib/shopify-helper",
   "version": "0.4.0",
-  "description": "Shortcuts and snippets for Atom to help you with your Shopify project",
+  "description": "Snippets for Atom to help you with the Shopify schema.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "shopify-helper:paste-clean-text"

@@ -1,6 +1,6 @@
 # shopify-helper package
 
-Shortcuts and snippets for Atom to help you with your Shopify project.
+Snippets for Atom to help you with the Shopify schema.
 
 ## Installation
 
@@ -20,7 +20,8 @@ Or Settings/Preferences ➔ Packages ➔ Search for `shopify-helper`
 
 ### Snippets
 
-JSON snippets for each schema setting type:
+Start typing a schema type (below) to populate the json structure. Use `TAB` to navigate to the next edit-able property
+
 * `text`
 * `textarea`
 * `image_picker`
@@ -41,8 +42,7 @@ JSON snippets for each schema setting type:
 * `richtext`
 * `html`
 * `article`
-Start typing a schema type to populate the json structure. Use `TAB` to navigate to the next edit-able property.
 
 ## Contributing
 
-Cotributors welcome :grin:
+Cotributors welcome 🤓
