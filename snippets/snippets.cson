@@ -26,7 +26,7 @@
   "type": "textarea",
   "id": "${1:id}",
   "label": "${2:label}",
-  "default": "${3:default}"
+  "default": "${3:default}",
   "info": "${4:info}",
   "placeholder": "${5:placeholder}"
 }
@@ -111,7 +111,7 @@
   "type": "checkbox",
   "id": "${1:id}",
   "label": "${2:label}",
-  "default": "${3:default}"
+  "default": "${3:default}",
   "info": "${4:info}"
 }
     """
@@ -126,7 +126,7 @@
   "type": "range",
   "id": "${1:id}",
   "label": "${2:label}",
-  "default": "${3:default}"
+  "default": "${3:default}",
   "info": "${4:info}",
   "min": ${5:0},
   "max": ${6:10},
@@ -145,7 +145,7 @@
   "type": "color",
   "id": "${1:id}",
   "label": "${2:label}",
-  "default": "${3:default}"
+  "default": "${3:default}",
   "info": "${4:info}"
 }
     """
@@ -159,7 +159,7 @@
 {
   "type": "font",
   "id": "${1:id}",
-  "label": "${2:label}"
+  "label": "${2:label}",
   "info": "${3:info}"
 }
     """
@@ -173,7 +173,7 @@
 {
   "type": "collection",
   "id": "${1:id}",
-  "label": "${2:label}"
+  "label": "${2:label}",
   "info": "${3:info}"
 }
     """
@@ -187,7 +187,7 @@
 {
   "type": "product",
   "id": "${1:id}",
-  "label": "${2:label}"
+  "label": "${2:label}",
   "info": "${3:info}"
 }
     """
@@ -201,7 +201,7 @@
 {
   "type": "blog",
   "id": "${1:id}",
-  "label": "${2:label}"
+  "label": "${2:label}",
   "info": "${3:info}"
 }
     """
@@ -215,7 +215,7 @@
 {
   "type": "page",
   "id": "${1:id}",
-  "label": "${2:label}"
+  "label": "${2:label}",
   "info": "${3:info}"
 }
     """
@@ -229,7 +229,7 @@
 {
   "type": "article",
   "id": "${1:id}",
-  "label": "${2:label}"
+  "label": "${2:label}",
   "info": "${3:info}"
 }
     """
@@ -243,7 +243,7 @@
 {
   "type": "link_list",
   "id": "${1:id}",
-  "label": "${2:label}"
+  "label": "${2:label}",
   "info": "${3:info}"
 }
     """
@@ -257,7 +257,7 @@
 {
   "type": "snippet",
   "id": "${1:id}",
-  "label": "${2:label}"
+  "label": "${2:label}",
   "info": "${3:info}"
 }
     """
@@ -271,7 +271,7 @@
 {
   "type": "url",
   "id": "${1:id}",
-  "label": "${2:label}"
+  "label": "${2:label}",
   "info": "${3:info}"
 }
     """
@@ -285,7 +285,7 @@
 {
   "type": "video_url",
   "id": "${1:id}",
-  "label": "${2:label}"
+  "label": "${2:label}",
   "info": "${3:info}",
   "accept": ["youtube", "vimeo"],
   "default": "${4:https://www.youtube.com/watch?v=_9VUPq3SxOc}"
@@ -301,7 +301,7 @@
 {
   "type": "richtext",
   "id": "${1:id}",
-  "label": "${2:label}"
+  "label": "${2:label}",
   "info": "${3:info}",
   "default": "${4:default}"
 }
@@ -316,7 +316,7 @@
 {
   "type": "html",
   "id": "${1:id}",
-  "label": "${2:label}"
+  "label": "${2:label}",
   "info": "${3:info}",
   "default": "${4:default}"
 }
