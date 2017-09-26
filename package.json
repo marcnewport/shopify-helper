@@ -1,7 +1,7 @@
 {
   "name": "shopify-helper",
   "main": "./lib/shopify-helper",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Shortcuts and snippets for Atom to help you with your Shopify project",
   "keywords": [],
   "activationCommands": {
