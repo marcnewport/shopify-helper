@@ -1,4 +1,4 @@
-'.source.json, .source.html, .source.liquid':
+'.source.html, .source.liquid, .source.json':
 
   # ----------------------------------
   # text
