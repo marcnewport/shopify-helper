@@ -1,4 +1,4 @@
-'.source.html, .source.liquid, .source.json':
+'.liquid, .json':
 
   # ----------------------------------
   # text
@@ -346,4 +346,61 @@
   "content": "${1:content}",
   "info": "${2:info}"
 }
+    """
+
+'.liquid':
+
+  # ----------------------------------
+  # schema
+  # ----------------------------------
+  'Shopify schema':
+    'prefix': 'schema'
+    'body': """
+    {% schema %}
+    {
+      "name": "${1:Schema Name}",
+      "settings": [
+        ${2:}
+      ]
+    }
+    {% endschema %}
+    """
+
+  # ----------------------------------
+  # blocks
+  # ----------------------------------
+  'Shopify blocks':
+    'prefix': 'blocks'
+    'body': """
+    "blocks": [
+      {
+        "type": "${1:block_type}",
+        "name": "${2:Block Name}",
+        "settings": [
+          ${3:}
+        ]
+      }
+    ]
+    """
+
+  # ----------------------------------
+  # stylesheet
+  # ----------------------------------
+  'Shopify stylesheet':
+    'prefix': 'stylesheet'
+    'body': """
+    {% stylesheet 'scss' %}
+    ${1:}
+    {% endstylesheet %}
+    """
+
+  # ----------------------------------
+  # javascript
+  # ----------------------------------
+  'Shopify javascript':
+    'prefix': 'javascript'
+    'body': """
+    {% javascript %}
+    ${1:}
+    {% endjavascript %}
     """
