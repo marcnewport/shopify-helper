@@ -10,7 +10,7 @@
   "type": "text",
   "id": "${1:id}",
   "label": "${2:label}",
-  "default": "${3:default}"
+  "default": "${3:default}",
   "info": "${4:info}",
   "placeholder": "${5:placeholder}"
 }
